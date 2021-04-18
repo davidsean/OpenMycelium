@@ -1,0 +1,3 @@
+[submodule "cloud-link"]
+	path = cloud-link
+	url = https://github.com/OpenHerb/cloud-link
