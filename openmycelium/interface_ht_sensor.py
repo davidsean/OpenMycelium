@@ -32,6 +32,12 @@ class InterfaceHTSensor:
         return h,t
 
     def read_dht(self):
+        GPIO.setup(self.data_pin, GPIO.OUT)
+        GPIO.output(self.data_pin, GPIO.LOW)
+        time.sleep(18*0.001)
+        GPIO.output(self.data_pin, GPIO.HIGH) 
+        time.sleep(40*0.000001);
+        GPIO.setup(self.data_pin, GPIO.IN)
         pass
 
     def get_temperature(self):

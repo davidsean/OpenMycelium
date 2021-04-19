@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:raspberrypi_hat-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -538,4 +537,59 @@ Wire Wire Line
 	1550 6050 1550 6100
 Wire Wire Line
 	1050 6100 1150 6100
+Text Notes 10300 5600 0    118  ~ 24
+12V Relay
+Text Notes 12050 5550 0    118  ~ 24
+12V Relay
+Text Notes 14100 800  0    118  ~ 24
+Connectors
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 6084E32D
+P 15100 1450
+F 0 "J1" H 15157 1775 50  0000 C CNN
+F 1 "Barrel_Jack" H 15157 1684 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 15150 1410 50  0001 C CNN
+F 3 "~" H 15150 1410 50  0001 C CNN
+	1    15100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15400 1550 15750 1550
+Wire Wire Line
+	15400 1350 15750 1350
+$Comp
+L power:GND #PWR0101
+U 1 1 60854143
+P 15750 1550
+F 0 "#PWR0101" H 15750 1300 50  0001 C CNN
+F 1 "GND" V 15755 1422 50  0000 R CNN
+F 2 "" H 15750 1550 50  0001 C CNN
+F 3 "" H 15750 1550 50  0001 C CNN
+	1    15750 1550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 15750 1350 2    50   Input ~ 0
+12V
+Wire Wire Line
+	15350 2950 15800 2950
+Wire Wire Line
+	15350 2850 15800 2850
+Text Notes 14850 2350 0    60   ~ 0
+12V heater output
+Text Notes 14900 1050 0    60   ~ 0
+12V Input power supply
+Text GLabel 15800 2850 2    50   Input ~ 0
+12V
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 6087232A
+P 15100 2950
+F 0 "J2" H 15018 2625 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 15018 2716 50  0000 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 15100 2950 50  0001 C CNN
+F 3 "~" H 15100 2950 50  0001 C CNN
+	1    15100 2950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
