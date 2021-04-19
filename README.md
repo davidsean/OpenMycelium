@@ -1,7 +1,7 @@
 # OpenMycelium
-Yet another Raspberry Pi project. IOT Humidity and temperature controllers for mycelium growth and fruiting.
+Yet another Raspberry Pi project: an IoT environmental controller for mycelium growth and fruiting.
 This is a open-hardware and open-source DIY project.
-
+It can be used to control the conditions for spawn incubation, mycelium growth and for fruiting.
 
 # Project status
 This is still in its infancy. Nothing works yet, so please join the OpenIoT discord server (https://discord.com/invite/Ft229PDrxF) to contribute.
