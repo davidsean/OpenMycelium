@@ -15,5 +15,7 @@ Which is really Maxdetect RHT03
 ## Lights
 
 ## Fan
+Fan connector is a 4-pin Molex KK, useing header part 47053-1000 on the board. This allow the use of common CPU fans (including the 3-pin version without PWM control.
 
 ## Ultrasonic piezo
+
